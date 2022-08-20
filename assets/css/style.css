@@ -298,6 +298,14 @@ footer {
     hr {
         display: none;
     }
+
+    #times > div {          /* only put in thus 1200px oart as it will work on below 950px in the same way*/
+        width: 100%;  /* so it fills the whole screen*/
+        clear: both;  /* stackls verticaly by using this*/
+        height: 150px; /*keeping nicely in line of 75px*x */
+        padding: 0; /* removes unwanted padding around text*/
+
+    }
 }
     /* For Medium screens sizes from 950px and less*/
     @media screen and (max-width: 950px) {

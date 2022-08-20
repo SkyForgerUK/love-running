@@ -343,10 +343,24 @@ footer {
         .left-about-heading p, .right-about-heading p {
             text-align: center;
             padding: 0 20px;        /* centers the text and gives a nice paddding on sies for more apeal*/
+        }
 
+        #photos {
+            column-count: 3; /* screens below 950px will have 3 columns of images*/
+        }
 
     }
 
+
+    /* as 3 columns for images in Gallery is too mutch for the small mobile phones we use the below of 800px and less*/
+
+    @media screen and (max-width: 800px) {
+        #photos {
+            column-count: 2;
+        }
+
+
+    }
 
 
 

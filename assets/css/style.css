@@ -251,3 +251,17 @@ footer {
     color: #3a3a3a;
 
 }
+
+/* gallery */
+
+#photos {
+    clear: both; /* to make photos to display below the header */
+    line-height: 0; /* remove any horizontal gaps between the images */
+    column-count: 4; /* specifies how many columns max in 1 row displayed*/
+    column-gap: 0px; /* removes the gaps between images (personal preference- can be what I like)*/
+}
+
+#photos > img {
+    width: 100%; /* use to make all images the same size - as the above makes 4 pics per line it will resize the images to fit nicely*/
+}
+

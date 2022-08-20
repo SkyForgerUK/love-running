@@ -305,11 +305,37 @@ footer {
         #menu {
             clear: left;
             float: left;
-            margin-left: 30px;
+            margin-left: 30px;  /* For Header below 950px  - like tablets and such*/
             margin-bottom: 20px;
             line-height: 25px;
             
         }
+
+        #cover-text {
+            left: 0;       /* the cover text on the pic so on 950px and less it is tied to left side*/
+
+        }
+
+        #club-ethos {
+            width: 90%;    /* usable width on mobile platforms*/
+            height: 1200px;
+            margin: 0 auto;
+
+        }
+
+        .left-about-heading, .right-about-heading {
+            width: inherit;        /* target the div that holds the text, so that will open the room for the stuf under */
+        }
+
+        .left-about-heading h2, .right-about-heading h2 {
+            width: 100%;
+            text-align: center;             /* to center the h2 and using width 100% make it so it is middle of screen when centering*/
+        }
+
+        .left-about-heading p, .right-about-heading p {
+            text-align: center;
+            padding: 0 20px;        /* centers the text and gives a nice paddding on sies for more apeal*/
+
 
     }
 
